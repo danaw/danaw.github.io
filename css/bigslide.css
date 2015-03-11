@@ -1,0 +1,146 @@
+
+Icon Font
+======================================
+*/
+
+.icon-github:before {
+  content: "\e601";
+}
+.icon-download:before {
+  content: "\e602";
+}
+.icon-book:before {
+  content: "\e603";
+}
+.icon-cog:before {
+  content: "\e604";
+}
+
+/*
+Masthead
+======================================
+*/
+
+.masthead {
+  background: #34495D;
+  color: #fff;
+  position: relative;
+}
+
+.menu-link {
+	float: right;
+  font-size: 1.5em;
+  padding-top: 25px;
+}
+
+.menu-link:link,
+.menu-link:visited {
+  color: #fff;
+}
+
+.menu-link:hover,
+.menu-link:active {
+  color: #222;
+}
+
+/*
+Nav Panel
+======================================
+*/
+
+.panel {
+  background: rgba(219, 10, 91, 1);
+  z-index: 9999;
+  position: fixed;
+  left: -15.625em; /*or width of your navigation panel*/
+  width: 15.625em; /*should match the above value*/
+}
+
+/*.panel ul {
+  border-top: 2px solid #F7F7F7;
+}
+
+.panel ul:first-child {
+  border-top: 0;
+}*/
+
+.panel a {
+  display: block;
+  border-bottom: 1px solid #F26D90;
+  padding: 1em;
+}
+
+.panel a:link,
+.panel a:visited {
+  color: #F7F7F7;
+}
+
+.panel a:hover,
+.panel a:active {
+  background: #333;
+}
+
+.nav-icon {
+  margin-right: 6px;
+}
+
+/*
+code
+-----------------------------------
+*/
+
+pre {
+  background-color: #ECF0F1;
+  padding: 1em;
+  font-size: .875em;
+}
+
+/*
+Helper Classes
+-----------------------------------
+*/
+
+.hide {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+
+/*
+Small Screens
+-----------------------------------
+*/
+
+/*@media only screen and (max-width: 31.25em) {
+    body {
+      font-size: .875em;
+    }
+
+    h1 {
+      margin-top: 1em;
+    }
+
+    code,
+    pre {
+      overflow-y: scroll;
+    }
+
+    .btn-list li {
+      font-size: .75em;
+    }
+
+    .btn-list li:first-of-type {
+      margin-right: .2em;
+    }
+
+    table {
+      font-size: .75em;
+    }
+
+}
